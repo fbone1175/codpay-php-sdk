@@ -1,0 +1,22 @@
+{
+  "name": "codpay/php-sdk",
+  "description": "CodPay Payment GateWay",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fernando bonner",
+      "email": "contact@codpay.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "CodPay": "src/"
+    }
+  }
+}
